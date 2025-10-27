@@ -376,23 +376,6 @@ dialog#movie-dialog::backdrop {
   font-style: italic;
 }
 
-/* =====================
-   RESPONSIVE & ACCESSIBILITY
-   ===================== */
-@media (max-width: 480px) {
-  #movie-list {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  .movie-card {
-    max-width: 350px;
-    margin: 0 auto;
-  }
-  header h1 {
-    font-size: 1.75rem;
-  }
-}
-
 /* Focus styles for keyboard navigation */
 .movie-card:focus-visible,
 #close-dialog:focus-visible {
